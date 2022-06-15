@@ -1,0 +1,696 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    filter: blur(8px);
+}
+
+.box1 {
+    height: 100px;
+    width: 500px;
+
+    margin: auto;
+}
+
+.line {
+    height: 2px;
+    width: 100px;
+    background-color: GRAY;
+    margin-top: 10px;
+    position: relative;
+    top: 70px;
+    left: 30PX;
+
+}
+
+.line1 {
+    height: 2px;
+    width: 100px;
+    background-color: GRAY;
+    margin-top: 10px;
+    position: relative;
+    top: 30px;
+    left: 30%;
+    margin: auto;
+
+}
+
+h1 {
+    position: relative;
+    margin: auto;
+
+    left: 30%;
+    top: 50px;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    margin-top: 35px;
+    margin-bottom: -10PX;
+
+    margin-left: 45%;
+}
+
+
+.b1 {
+    height: 33px;
+    width: 33px;
+    background-color: orangered;
+    border-radius: 50%;
+
+}
+
+.b1 a {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 3px;
+    padding-top: 0px;
+    text-decoration: none;
+}
+
+.b1 .span {
+    position: relative;
+    top: 1px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 50;
+    color: gray;
+}
+
+.box3 {
+
+    height: 250px;
+    width: 230px;
+    border: 1px solid rgb(219, 65, 14);
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 4px 3px 4px 1px rgba(0, 0, 0, 0.226);
+}
+
+.t1 {
+    font-size: 20px;
+    font-weight: 300;
+    color: red;
+    top: 20px;
+    position: relative;
+    left: 45px;
+
+
+}
+
+hr {
+    height: .3px;
+    width: 80%;
+    outline: none;
+    background-color: gray;
+    float: right;
+    margin-top: 30px;
+    outline: none;
+
+}
+
+.t11 {
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: line-through;
+    left: 45px;
+    position: relative;
+    top: 20px;
+}
+
+.t12 {
+    position: relative;
+    top: 20px;
+    left: 45px;
+    font-size: 17px;
+
+}
+
+input {
+    position: relative;
+    top: 40px;
+    left: 25px;
+}
+
+.plusicon {
+    display: block;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(219, 65, 14);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    float: right;
+    top: 37%;
+    right: 10px;
+
+
+
+
+
+}
+
+.plusicon a {
+    color: white;
+
+    position: relative;
+    top: 1px;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+
+
+
+}
+.container2 {
+    width: 300PX;
+    height: 150PX;
+    border: 1.5PX solid red;
+    border-radius: 10PX;
+    box-shadow: 4px 3px 4px 1px rgba(0, 0, 0, 0.226);
+    margin: auto;
+    position: relative;
+    top: -300PX;
+    left: -5PX;
+   
+}
+
+
+.container2 P {
+    color: orangered;
+    font-weight: 50;
+    position: relative;
+    top: 30PX;
+    left: 100PX;
+    font-size: 15PX;
+
+
+
+}
+
+.container2 input {
+    height: 25px;
+    width: 200px;
+    position: relative;
+    left: 50PX;
+    top: 40px;
+    outline: none;
+    border: 1px solid rgb(241, 100, 100);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 3px 4px 1px rgba(0, 0, 0, 0.226);
+
+
+}
+
+.container2 button {
+    background-color: orangered;
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+    border: 1px solid orangered;
+    color: white;
+    position: relative;
+    top: 80px;
+    left: -80px;
+} */
+
+@media (min-width:769px) and (max-width:1024px) {}
+
+@media (min-width:481px) and (max-width:768px) {
+    .box1 {
+        height: 100px;
+        width: 50%;
+
+
+        margin: auto;
+    }
+
+    .line {
+        display: none;
+
+    }
+
+    .line1 {
+        display: none;
+    }
+
+    h1 {
+        position: relative;
+        margin: auto;
+
+        left: 25%;
+        top: 50px;
+    }
+
+    .box2 {
+
+        height: 100px;
+        width: 100px;
+        position: relative;
+        top: -82px;
+        left: -90px;
+
+
+
+    }
+
+
+    .b1 {
+        height: 33px;
+        width: 33px;
+        background-color: orangered;
+        border-radius: 50%;
+
+    }
+
+    .b1 a {
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+        padding-left: 3px;
+        padding-top: 0px;
+        text-decoration: none;
+    }
+
+    .b1 .span {
+        display: none;
+    }
+
+    .box3 {
+
+
+        height: 250px;
+        width: 230px;
+        border: 1px solid rgb(219, 65, 14);
+        margin: auto;
+        position: relative;
+        top: -80px;
+        border-radius: 8px;
+        box-shadow: 4px 3px 4px 1px rgba(0, 0, 0, 0.226);
+    }
+
+    .t1 {
+        font-size: 20px;
+        font-weight: 300;
+        color: red;
+        top: 20px;
+        position: relative;
+        left: 45px;
+
+
+    }
+
+    hr {
+        height: .3px;
+        width: 80%;
+        outline: none;
+        background-color: gray;
+        float: right;
+        margin-top: 30px;
+        outline: none;
+
+    }
+
+    .t11 {
+        color: red;
+        font-size: 20px;
+        font-weight: 400;
+        text-decoration: line-through;
+        left: 45px;
+        position: relative;
+        top: 20px;
+    }
+
+    .t12 {
+        position: relative;
+        top: 20px;
+        left: 45px;
+        font-size: 17px;
+
+    }
+
+    input {
+        position: relative;
+        top: 40px;
+        left: 25px;
+    }
+
+    .plusicon {
+        display: block;
+        height: 30px;
+        width: 30px;
+        background-color: rgb(219, 65, 14);
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        float: right;
+        top: 37%;
+        right: 10px;
+
+
+
+
+
+    }
+
+    .plusicon a {
+        color: white;
+
+        position: relative;
+        top: 1px;
+        font-weight: 500;
+        font-size: 25px;
+        text-decoration: none;
+
+
+
+    }
+
+
+}
+
+
+@media (min-width:320px) and (max-width:480px) {
+    .box1 {
+        height: 100px;
+        width: 50%;
+
+
+        margin: auto;
+    }
+
+    .line {
+        display: none;
+
+    }
+
+    .line1 {
+        display: none;
+    }
+
+    h1 {
+        position: relative;
+        margin: auto;
+        font-size: 25px;
+
+        left: 17%;
+        top: 55px;
+    }
+
+    .box2 {
+
+        height: 100px;
+        width: 100px;
+        position: relative;
+        top: -82px;
+        left: -90px;
+
+
+
+    }
+
+
+    .b1 {
+        height: 33px;
+        width: 33px;
+        background-color: orangered;
+        border-radius: 50%;
+
+    }
+
+    .b1 a {
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+        padding-left: 3px;
+        padding-top: 0px;
+        text-decoration: none;
+    }
+
+    .b1 .span {
+        display: none;
+    }
+
+    .box3 {
+
+
+        height: 300px;
+        width: 230px;
+        border: 1px solid rgb(219, 65, 14);
+        margin: auto;
+        position: relative;
+        top: -80px;
+        border-radius: 8px;
+        box-shadow: 4px 3px 4px 1px rgba(0, 0, 0, 0.226);
+    }
+
+    .t1 {
+        font-size: 20px;
+        font-weight: 300;
+        color: red;
+        top: 20px;
+        position: relative;
+        left: 45px;
+
+
+    }
+
+    hr {
+        height: .3px;
+        width: 80%;
+        outline: none;
+        background-color: gray;
+        float: right;
+        margin-top: 30px;
+        outline: none;
+
+    }
+
+    .t11 {
+        color: red;
+        font-size: 20px;
+        font-weight: 400;
+        text-decoration: line-through;
+        left: 45px;
+        position: relative;
+        top: 20px;
+    }
+
+    .t12 {
+        position: relative;
+        top: 20px;
+        left: 45px;
+        font-size: 17px;
+
+    }
+
+    input {
+        position: relative;
+        top: 40px;
+        left: 25px;
+    }
+
+    .plusicon {
+        display: block;
+        height: 30px;
+        width: 30px;
+        background-color: rgb(219, 65, 14);
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        float: right;
+        top: 45%;
+        right: 10px;
+
+
+
+
+
+    }
+
+    .plusicon a {
+        color: white;
+
+        position: relative;
+        top: 1px;
+        font-weight: 500;
+        font-size: 25px;
+        text-decoration: none;
+
+
+
+    }
+
+}
+
+@media (min-width:10px) and (max-width:319px) {
+    .box1 {
+        height: 100px;
+        width: 50%;
+
+
+        margin: auto;
+    }
+
+    .line {
+        display: none;
+
+    }
+
+    .line1 {
+        display: none;
+    }
+
+    h1 {
+        position: relative;
+        margin: auto;
+        font-size: 25px;
+
+        left: 17%;
+        top: 55px;
+    }
+
+    .box2 {
+
+        height: 100px;
+        width: 100px;
+        position: relative;
+        top: -82px;
+        left: -90px;
+
+
+
+    }
+
+
+    .b1 {
+        height: 33px;
+        width: 33px;
+        background-color: orangered;
+        border-radius: 50%;
+
+    }
+
+    .b1 a {
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+        padding-left: 3px;
+        padding-top: 0px;
+        text-decoration: none;
+    }
+
+    .b1 .span {
+        display: none;
+    }
+
+    .box3 {
+
+
+        height: 300px;
+        width: 230px;
+        border: 1px solid rgb(219, 65, 14);
+        margin: auto;
+        position: relative;
+        top: -80px;
+        border-radius: 8px;
+        box-shadow: 4px 3px 4px 1px rgba(0, 0, 0, 0.226);
+    }
+
+    .t1 {
+        font-size: 20px;
+        font-weight: 300;
+        color: red;
+        top: 20px;
+        position: relative;
+        left: 45px;
+
+
+    }
+
+    hr {
+        height: .3px;
+        width: 80%;
+        outline: none;
+        background-color: gray;
+        float: right;
+        margin-top: 30px;
+        outline: none;
+
+    }
+
+    .t11 {
+        color: red;
+        font-size: 20px;
+        font-weight: 400;
+        text-decoration: line-through;
+        left: 45px;
+        position: relative;
+        top: 20px;
+    }
+
+    .t12 {
+        position: relative;
+        top: 20px;
+        left: 45px;
+        font-size: 17px;
+
+    }
+
+    input {
+        position: relative;
+        top: 40px;
+        left: 25px;
+    }
+
+    .plusicon {
+        display: block;
+        height: 30px;
+        width: 30px;
+        background-color: rgb(219, 65, 14);
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        float: right;
+        top: 45%;
+        right: 10px;
+
+
+
+
+
+    }
+
+    .plusicon a {
+        color: white;
+
+        position: relative;
+        top: 1px;
+        font-weight: 500;
+        font-size: 25px;
+        text-decoration: none;
+
+
+
+    }
+
+}
